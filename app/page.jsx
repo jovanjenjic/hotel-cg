@@ -1,6 +1,5 @@
 import Accommodations from "./accommodations/accommodations";
 import Banner from "./banner/banner";
-import Blog from "./blog/blog";
 import Deluxe from "./deluxe/deluxe";
 import Feature from "./feature/feature";
 import Footer from "./footer/footer";
@@ -23,7 +22,6 @@ export default function Home() {
         <Services />
         <Feature />
         <Testimonial />
-        <Blog />
         <Footer />
         <ScrollToTopButton />
     </>

@@ -72,6 +72,7 @@ Menu Bar
                     }
                     .menu-item-has-children {
                         a {
+                            color: white;
                             &::before {
                                 right: 28px;
                                 background: var(--heading-color);

@@ -8,7 +8,7 @@ const BannerContent = () => {
       <div className="col-xl-12">
         <div className="banner__area-title">
           <h1>
-            The Best Hotel<span>Deals in the World</span>
+            Vila Drobni Pijesa<span>Sveti Stefan</span>
           </h1>
           <div className="banner__area-title-video">
             <div className="video__play">

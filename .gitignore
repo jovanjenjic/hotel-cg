@@ -51,6 +51,3 @@ public/swe-worker-development.js
 .env
 
 cypress/screenshots
-
-.next/
-/.next

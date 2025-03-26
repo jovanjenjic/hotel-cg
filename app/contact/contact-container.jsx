@@ -10,8 +10,13 @@ const Contactcontainer = () => {
               <div className="contact__area-title">
                 <h3 className="mb-25">Get In Touch</h3>
                 <p>
-                  Phasellus nisi sapien, rutrum placerat sapien eu, rhoncus
-                  tempus felis. Nulla non pulvinar enim, vel viverra nunc
+                  Feel free to contact us directly if you have any enquires regarding 
+                  accomodation, we would love to have you stay with us.
+                </p>
+                <p>
+                  Simply fill in all your personal data and let us get in touch with you. 
+                  Normally, our support team answers within one business day to you, 
+                  so that you don’t have to wait. Or call us directly from the phone.
                 </p>
               </div>
               <div className="contact__area-info">
@@ -22,7 +27,7 @@ const Contactcontainer = () => {
                   <div className="contact__area-info-item-content">
                     <span>Emergency Help</span>
                     <h6>
-                      <a href="tel:+123(458)896895">+123 ( 458 ) 896 895</a>
+                      <a href="tel:+38269216035">+382 69 216 035</a>
                     </h6>
                   </div>
                 </div>
@@ -33,7 +38,7 @@ const Contactcontainer = () => {
                   <div className="contact__area-info-item-content">
                     <span>Quick Email</span>
                     <h6>
-                      <a href="mailto:support@gamil.com">support@gamil.com</a>
+                      <a href="mailto:info@villadrobnipijesak.me">info@villadrobnipijesak.me</a>
                     </h6>
                   </div>
                 </div>
@@ -44,7 +49,7 @@ const Contactcontainer = () => {
                   <div className="contact__area-info-item-content">
                     <span>Office Address</span>
                     <h6>
-                      <a href="#">GXF4+8HQ Chippenham United Kingdom </a>
+                      <a href="https://maps.app.goo.gl/iH5N6Heggig8jv1v5">Drobni Pijesak, Montenegro </a>
                     </h6>
                   </div>
                 </div>
@@ -126,10 +131,10 @@ const Contactcontainer = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="contact__area-map section-padding">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830894606!2d-74.11976383964463!3d40.69766374865767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1652012644726!5m2!1sen!2sbd"
-                  loading="lazy"
-                ></iframe>
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83439.47718632933!2d18.855758186162618!3d42.236307621802275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134dd7dc3cff419f%3A0x700cf87544b7dc28!2sVilla%20Drobni%20Pijesak!5e0!3m2!1sen!2srs!4v1743000237742!5m2!1sen!2srs" 
+                loading="lazy"
+              ></iframe>
               </div>
             </div>
           </div>

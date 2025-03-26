@@ -10,7 +10,7 @@ const Contact = () => {
     <>
       <SEO pageTitle="Contact Us" />
         <HeaderOne />
-        <BreadCrumb title="Contact Us" innerTitle="Contact Us" bgImage="/img/banner/page-banner-5.jpg"/>
+        <BreadCrumb title="Contact Us" innerTitle="Contact Us" bgImage="/img/vdp-i-1.webp"/>
         <Contactcontainer />
         <Footer />
         <ScrollToTopButton />

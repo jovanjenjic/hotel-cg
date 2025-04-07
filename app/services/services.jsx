@@ -7,7 +7,7 @@ export default function Services() {
         <div className="row">
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 lg-mb-30">
             <div className="services__area-item">
-              <div className="services__area-item-icon flex justify-center items-center">
+              <div className="services__area-item-icon d-flex align-content-center flex-wrap justify-content-center">
                 <Image src="/cleaning.png" alt="" width={50} height={50} />
               </div>
               <div className="services__area-item-content">
@@ -23,7 +23,7 @@ export default function Services() {
           </div>
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 sm-mb-30">
             <div className="services__area-item">
-              <div className="services__area-item-icon flex justify-center items-center">
+              <div className="services__area-item-icon d-flex align-content-center flex-wrap justify-content-center">
                 <Image src="/wifi.png" alt="" width={50} height={50} />
               </div>
               <div className="services__area-item-content">
@@ -39,7 +39,7 @@ export default function Services() {
           </div>
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
             <div className="services__area-item">
-              <div className="services__area-item-icon flex justify-center items-center">
+              <div className="services__area-item-icon d-flex align-content-center flex-wrap justify-content-center">
                 <Image src="/location.png" alt="" width={50} height={50} />
               </div>
               <div className="services__area-item-content">

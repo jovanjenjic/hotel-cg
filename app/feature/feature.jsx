@@ -21,7 +21,7 @@ export default function Feature() {
             <div className="feature__area-left">
               <div className="feature__area-left-title">
                 <span className="subtitle__one">Our Food</span>
-                <h2>Restaurant Silo</h2>
+                <h2>Signature Farm to Table Experience</h2>
                 <p>
                   Proin massa augue, lacinia at blandit ac, fringilla
                   scelerisque tortor. Mauris sit amet lectus porta,

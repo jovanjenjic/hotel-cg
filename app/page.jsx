@@ -17,7 +17,6 @@ export default function Home() {
         <HeaderOne />
         <Banner />
         <Accommodations />
-        <Deluxe />
         <Videoarea />
         <Services />
         <Feature />

@@ -65,7 +65,7 @@ export default function Feature() {
           <div className="col-xl-6 col-lg-6">
             <div className="feature__area-image">
               <Image
-                src="/img/features/feature-3.jpg"
+                src="/img/villa/drobni_pijesak_1.jpg"
                 alt=""
                 width={600}
                 height={600}
@@ -75,10 +75,17 @@ export default function Feature() {
           <div className="col-xl-6 col-lg-6">
             <div className="feature__area-left">
               <div className="feature__area-left-title p-4">
-                <span className="subtitle__one">Fitness Equipment</span>
-                <h2>Exercise equipment</h2>
+                <span className="subtitle__one">Beach near villa</span>
+                <h2>Drobni Pijesak beach</h2>
                 <p>
-                  Fully equipped gym under a pool is comming soon!
+                  Drobni Pijesak beach is true gem along the Montenegrin coast. Nestled in secluded cove, this beach boasts stunning natural beauty. 
+                  What makes it even special is its location at the back of an ancient olive grove. As you approach the beach, 
+                  you’ll be greeted by mesmerizing sight of crystal-clear turquoise waters gently lapping against the soft, fine sand.
+                </p>
+                <p>
+                  The peacful atmosphere and untouched surroundings create a sense of tranquility that is hard to find elsewhere. 
+                  Whether you’re looking to soak up the sun, take a refreshing swim, or simply relax under the shade of an olive tree, 
+                  Drobni Pijesak beach offers it all. Don’t miss the chance to experience this slice of paradise on the Montenegrin coast.
                 </p>
                 <Link className="theme-border-btn" href="/about">
                   Read More <FaArrowRight className="ml-10" />
@@ -87,15 +94,14 @@ export default function Feature() {
             </div>
           </div>
         </div>
-        <div className="row align-items-center bg-right flex justify-between">
+        <div className="row align-items-center bg-right mb-60 flex justify-between">
           <div className="col-xl-6 col-lg-6 order-last order-lg-first">
             <div className="feature__area-left">
               <div className="feature__area-left-title">
-                <span className="subtitle__one">Experiences</span>
-                <h2>Swimming Pool</h2>
+                <span className="subtitle__one">Comming Soon</span>
+                <h2>Vine Cellar</h2>
                 <p>
-                  Proin massa augue, lacinia at blandit ac, fringilla
-                  scelerisque tortor. Mauris sit amet lectus porta,
+                  Discover a small and cozy vine cellar filled with local Montenegrin vine as well as selection of Italian, French, Portuguese vines.
                 </p>
                 <Link className="theme-border-btn" href="/about">
                   Read More <FaArrowRight className="ml-10" />
@@ -106,11 +112,37 @@ export default function Feature() {
           <div className="col-xl-6 col-lg-6">
             <div className="feature__area-image">
               <Image
-                src="/img/features/feature-4.jpg"
+                src="/img/villa/wine-storage.jpg"
                 alt=""
                 width={600}
                 height={600}
               />
+            </div>
+          </div>
+        </div>
+        <div className="row align-items-center bg-left flex justify-between">
+          <div className="col-xl-6 col-lg-6">
+            <div className="feature__area-image">
+              <Image
+                src="/img/villa/gym.jpg"
+                alt=""
+                width={600}
+                height={600}
+              />
+            </div>
+          </div>
+          <div className="col-xl-6 col-lg-6">
+            <div className="feature__area-left">
+              <div className="feature__area-left-title p-4">
+                <span className="subtitle__one">Comming Soon</span>
+                <h2>Gym</h2>
+                <p>
+                  Fully equipped fitness under the pool with the sea view.
+                </p>
+                <Link className="theme-border-btn" href="/about">
+                  Read More <FaArrowRight className="ml-10" />
+                </Link>
+              </div>
             </div>
           </div>
         </div>

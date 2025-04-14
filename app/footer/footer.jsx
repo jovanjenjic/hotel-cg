@@ -35,12 +35,11 @@ export default function Footer() {
                 <div className="footer__area-widget-about-logo">
                   {/* Company logo */}
                   <Link href="/">
-                    <Image
+                    <img
                       layout="responsive"
                       src="/logo.png"
-                      alt=""
-                      width={200}
-                      height={50}
+                      alt="logo"
+                      width={55}
                     />
                   </Link>
                 </div>

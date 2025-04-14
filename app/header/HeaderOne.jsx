@@ -25,7 +25,7 @@ export default function HeaderOne({ variant }) {
                 <div className="header__area-menubar">
 					<div className="header__area-menubar-left">
 						<div className="header__area-menubar-left-logo">
-							<Link href="/"><img src="/logo.png" alt="logo" /></Link>
+							<Link href="/"><img src="/logo.png" alt="logo" width={100}/></Link>
                             <span className={mobileToggle ? "mobile-menu mobile-menu-active" : "mobile-menu"} onClick={() => setMobileToggle(!mobileToggle)}><span></span></span>
 						</div>
 					</div>

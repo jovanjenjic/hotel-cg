@@ -9,7 +9,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
             <div className={`header__area-menubar-right-sidebar-popup three ${isOpen ? 'active' : ''}`}>
                             <div className="sidebar-close-btn" onClick={() => setIsOpen(false)}><i className="fal fa-times"></i></div>
                             <div className="header__area-menubar-right-sidebar-popup-logo">
-							<Link href="/"><img src="/logo-1.png" alt="logo" /></Link>
+							<Link href="/"><img src="/logo.png" alt="logo" /></Link>
                             </div>
                             <p>Morbi et tellus imperdiet, aliquam nulla sed, dapibus erat. Aenean dapibus sem non purus venenatis vulputate. Donec accumsan eleifend blandit. Nullam auctor ligula</p>
 							<div className="header__area-menubar-right-box-sidebar-popup-image">

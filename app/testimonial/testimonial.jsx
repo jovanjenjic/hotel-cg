@@ -3,9 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 
 const testimonialData = [
-    { image: "/img/avatar/testimonial-1.jpg", name: 'David Beckham', position: 'UX Designer', des: 'Proin massa augue, lacinia at blandit ac, fringilla scelerisque tortor. Mauris sit amet lectus porta, porta lectus non, malesuada neque. Integer in tempus leo. Quisque vitae leo ac ex suscipit iaculis eu in nisl. Donec vestibulum volutpat lectus, vel aliquet massa porttitor in. Integer eleifend' },
-    { image: "/img/avatar/testimonial-2.jpg", name: 'David Fincher', position: 'UX Designer', des: 'Proin massa augue, lacinia at blandit ac, fringilla scelerisque tortor. Mauris sit amet lectus porta, porta lectus non, malesuada neque. Integer in tempus leo. Quisque vitae leo ac ex suscipit iaculis eu in nisl. Donec vestibulum volutpat lectus, vel aliquet massa porttitor in. Integer eleifend' },
-    { image: "/img/avatar/testimonial-3.jpg", name: 'Ridley Scott', position: 'UX Designer', des: 'Proin massa augue, lacinia at blandit ac, fringilla scelerisque tortor. Mauris sit amet lectus porta, porta lectus non, malesuada neque. Integer in tempus leo. Quisque vitae leo ac ex suscipit iaculis eu in nisl. Donec vestibulum volutpat lectus, vel aliquet massa porttitor in. Integer eleifend' },
+    { image: "/img/avatar/testimonial-1.jpg", name: 'Milan and Dejana Jojovic', position: 'Owners', des: 'A successful married couple from Hamburg, Germany, has been building a life together for years, based on love, trust, and professional achievement. He is a renowned cardiac surgeon, known for his expertise and dedication to his patients, while she is the owner of a prestigious beauty salon, highly regarded by her clients for her sense of aesthetics and top-quality service. Their story is a true example of how hard work, ambition, and a harmonious family life can blend together perfectly.' },
+    { image: "/img/avatar/testimonial-2.jpg", name: 'Marina', position: 'Hostess', des: 'Treba nesto saznati o Marini, izmedju ostalog i prezime' },
 ]
 
 const Testimonial = () => {

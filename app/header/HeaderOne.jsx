@@ -35,11 +35,8 @@ export default function HeaderOne({ variant }) {
 								<li>
                                     <Link href="/">Home</Link>
 								</li>
-								<li className="menu-item-has-children"><a href="#">Pages</a>
-                                    <DropDown />
-                                    <ul className="sub-menu">
-                                        <Page />
-                                    </ul>                                    
+								<li>
+                                    <Link href="/about">About</Link>             
 								</li>
 								<li className="menu-item-has-children"><a href="#">Room</a>
                                     <DropDown />

@@ -26,9 +26,9 @@ export default function Feature() {
                   Indulge in our organic breakfast option sourced from local farms in Montenegro. 
                   Our homemade cheeses, prosciutto, olives and more will tantalize your taste buds.
                 </p>
-                <Link className="theme-border-btn" href="/about">
+                {/* <Link className="theme-border-btn" href="/about">
                   Read More <FaArrowRight className="ml-10" />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -44,9 +44,9 @@ export default function Feature() {
                   Come and indulge in the wonders of our exceptional pool, which offers a beautiful view of the Vasa sea and enchanting sunsets. 
                   Our pool filled with crystal-clear sea water, provide a unique and invigorating swimming experience.
                 </p>
-                <Link className="theme-border-btn" href="/about">
+                {/* <Link className="theme-border-btn" href="/about">
                   Read More <FaArrowRight className="ml-10" />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -87,9 +87,9 @@ export default function Feature() {
                   Whether you’re looking to soak up the sun, take a refreshing swim, or simply relax under the shade of an olive tree, 
                   Drobni Pijesak beach offers it all. Don’t miss the chance to experience this slice of paradise on the Montenegrin coast.
                 </p>
-                <Link className="theme-border-btn" href="/about">
+                {/* <Link className="theme-border-btn" href="/about">
                   Read More <FaArrowRight className="ml-10" />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -103,9 +103,9 @@ export default function Feature() {
                 <p>
                   Discover a small and cozy vine cellar filled with local Montenegrin vine as well as selection of Italian, French, Portuguese vines.
                 </p>
-                <Link className="theme-border-btn" href="/about">
+                {/* <Link className="theme-border-btn" href="/about">
                   Read More <FaArrowRight className="ml-10" />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -139,9 +139,9 @@ export default function Feature() {
                 <p>
                   Fully equipped fitness under the pool with the sea view.
                 </p>
-                <Link className="theme-border-btn" href="/about">
+                {/* <Link className="theme-border-btn" href="/about">
                   Read More <FaArrowRight className="ml-10" />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

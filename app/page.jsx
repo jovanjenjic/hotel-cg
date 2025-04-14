@@ -13,11 +13,10 @@ import SEO from "@/components/seo";
 export default function Home() {
   return (
     <>
-      <SEO pageTitle="Home Default" />
+      <SEO pageTitle="Home" />
         <HeaderOne />
         <Banner />
         <Accommodations />
-        <Deluxe />
         <Videoarea />
         <Services />
         <Feature />

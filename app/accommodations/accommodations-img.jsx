@@ -1,5 +1,5 @@
-import hotel1 from "@/public/img/hotel/hotel-1.jpg";
-import hotel2 from "@/public/img/hotel/hotel-2.jpg";
+import hotel1 from "@/public/img/villa/villadrobnipijesak-pool-6.webp";
+import hotel2 from "@/public/img/villa/villadrobnipijesak-balkony-view.jpeg";
 import Image from "next/image";
 
 const Accommodationsimg = () => {

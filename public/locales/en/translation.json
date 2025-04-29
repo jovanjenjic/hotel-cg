@@ -1,0 +1,141 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "galery": "Galery",
+        "contact": "Contact"
+    },
+    
+    "button": {
+        "read_more": "Read more",
+        "book_now": "Book now",
+        "check_now": "Check now",
+        "submit_now": "Submit Now"
+    },
+    
+    "feature": {
+        "food": {
+            "subtitle": "Food",
+            "title": "Signature Farm to Table Experience",
+            "des": "Indulge in our organic breakfast option sourced from local farms in Montenegro. Our homemade cheeses, prosciutto, olives and more will tantalize your taste buds."
+        },
+        "pool": {
+            "subtitle": "Pool",
+            "title": "Dive in luxury, our pool is waiting for you",
+            "des": "Relax and enjoy the best view of the sea and sunset. Come and indulge in the wonders of our exceptional pool, which offers a beautiful view of the Vasa sea and enchanting sunsets. Our pool filled with crystal-clear sea water, provide a unique and invigorating swimming experience."
+        },
+        "near": {
+            "subtitle": "Beach near villa",
+            "title": "Drobni Pijesak beach",
+            "des_1": "Drobni Pijesak beach is true gem along the Montenegrin coast. Nestled in secluded cove, this beach boasts stunning natural beauty. What makes it even special is its location at the back of an ancient olive grove. As you approach the beach, you’ll be greeted by mesmerizing sight of crystal-clear turquoise waters gently lapping against the soft, fine sand.",
+            "des_2": "The peacful atmosphere and untouched surroundings create a sense of tranquility that is hard to find elsewhere. Whether you’re looking to soak up the sun, take a refreshing swim, or simply relax under the shade of an olive tree, Drobni Pijesak beach offers it all. Don’t miss the chance to experience this slice of paradise on the Montenegrin coast."
+        },
+        "wine": {
+            "subtitle": "Comming Soon",
+            "title": "Wine Cellar",
+            "des": "Discover a small and cozy vine cellar filled with local Montenegrin vine as well as selection of Italian, French, Portuguese vines."
+        },
+        "gym": {
+            "subtitle": "Comming Soon",
+            "title": "Move your body",
+            "des": "Fully equipped fitness under the pool with the sea view."
+        }
+    },
+
+    "accommodation": {
+        "subtitle": "Accommodations",
+        "title": "Luxury Awaits You",
+        "des": "If you are looking for a luxurious retreat that feels like a home away from home, look no further. This exquisite haven offers more that just a place to stay – it is a sanctuary for your soul. As you unwind and relax, you will be treated to breathtaking sunset that paint the sky with vibrant hues. The Mediterranean climate adds to the allure, ensuring pleasant weather throughout your stay. The stunning garden surrounding the property creates a serene ambiance, while the beautiful pool invites you to take a refreshing dip. Whether you seek tranquility or simply want to indulge in the lap of luxury, this is the perfect destination for you."
+    },
+
+    "testimonial": {
+        "owner": {
+            "name": "Milan and Dejana Jojovic",
+            "position": "Owners",
+            "des": "A successful married couple from Hamburg, Germany, has been building a life together for years, based on love, trust, and professional achievement. He is a renowned cardiac surgeon, known for his expertise and dedication to his patients, while she is the owner of a prestigious beauty salon, highly regarded by her clients for her sense of aesthetics and top-quality service. Their story is a true example of how hard work, ambition, and a harmonious family life can blend together perfectly."
+            
+        },
+        "hostess": {
+            "name": "Marina",
+            "position": "Hostess",
+            "des": "Treba nesto saznati o Marini, izmedju ostalog i prezime"
+        }
+    },
+
+    "footerOne": {
+        "widget": {
+            "about": "About Us",
+            "contact": "Contact Us",
+            "galery": "Galery"
+        }
+    },
+
+    "about": {
+        "title": "About Us",
+        "montenegro":{
+            "subtitle": "Montenegro",
+            "title": "Welcome to Montenegro - the Gem of the Mediterranean",
+            "des": "Small, yet incredibly diverse, Montenegro stretches between majestic mountains and the crystal-clear Adriatic Sea. This country, rich in natural contrasts, culture, and history, offers everything a traveler could desire – from wild national parks, deep canyons, and serene lakes to golden beaches, hidden coves, and vibrant coastal towns. At the heart of this beauty, between the popular resorts Sveti Stefan and Petrovac, lies the idyllic Drobni Pijesak beach – a true oasis of peace and nature. Just minutes away, on a hill surrounded by olive trees and cypresses, stands Villa Drobni Pijesak – a modern stone villa with a spectacular sea view."
+        },
+        "architecture":{
+            "subtitle": "Villa architecture",
+            "title": "Villa Drobni Pijesak – Elegance in Harmony with Nature",
+            "des_1": "Mediterranean architecture with modern elegant design. Stone, lavender, citrus, and olive trees give the entire space an authentic charm and tranquility. With 360 m² of living space spread over three levels, the villa offers:",
+            "des_2": "5 bedrooms, each with en-suite bathrooms, Spacious living room with fireplace, Fully equipped kitchen and dining area for gatherings, Wine cellar and soon-to-be fitness room, Terraces with breathtaking Adriatic views, Saltwater pool and covered veranda with grill",
+            "des_3": "The interiors radiate warmth and sophistication, thanks to high-quality materials, natural tones, and spacious, bright rooms."
+        },
+        "nature":{
+            "subtitle": "Spirit of inquiry",
+            "title": "Surroundings – A Blend of Nature, History & Adventure",
+            "des": "Nearby is the village of Rijeka Reževići, surrounded by lush Mediterranean vegetation and many hiking trails that lead to stunning viewpoints. The village is home to a 13th-century monastery, known for its frescoes and Romanesque-Byzantine architecture. For history and culture lovers, Old Town Budva – one of the oldest settlements on the Adriatic – offers rich heritage, narrow stone alleys, and local charm. Adventurers will enjoy hiking, rafting, skiing, and more, while food lovers can indulge in the culinary tradition, local wines, and authentic specialties."
+        },
+        "impression":{
+            "subtitle": "Impression",
+            "title": "Pure Enjoyment",
+            "des": "Villa Drobni Pijesak is more than a place to stay – it is a refuge, an inspiration, and a stage for unforgettable moments. When the sun sets into the sea and the sky lights up in vivid colors, you’ll know you’ve arrived at the right place."
+        }
+    },
+
+    "services": {
+        "clean": {
+            "title": "Villa Cleaning",
+            "des": "Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris"
+        },
+        "parking": {
+            "title": "Private Parking",
+            "des": "Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris"
+        },
+        "wifi": {
+            "title": "Free Wifi",
+            "des": "Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris"
+        },
+        "pool": {
+            "title": "Swimming pool",
+            "des": "Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris"
+        }
+    },
+
+    "contact": {
+        "title": "Contact Us",
+        "touch": {
+            "title": "Get In Touch",
+            "des_1": "Feel free to contact us directly if you have any enquires regarding accomodation, we would love to have you stay with us.",
+            "des_2": "Simply fill in all your personal data and let us get in touch with you. Normally, our support team answers within one business day to you, so that you don’t have to wait. Or call us directly from the phone."
+        },
+        "phone": "Emergency Help",
+        "email": "Quick Email",
+        "address": "Office Address",
+        "form": {
+            "title": "Send Massage",
+            "name": "Full Name",
+            "email": "Email Address",
+            "phone": "Phone",
+            "subject": "Subject",
+            "message": "Type your comments...."
+        }
+    },
+    
+    "video_area": {
+        "title": "Book villa, get deal & book flights online."
+    }
+}

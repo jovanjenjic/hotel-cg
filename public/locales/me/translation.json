@@ -1,0 +1,141 @@
+{
+    "header": {
+      "home": "Početna",
+      "about": "O nama",
+      "galery": "Galerija",
+      "contact": "Kontakt"
+    },
+    
+    "button": {
+      "read_more": "Pročitaj više",
+      "book_now": "Rezerviši sada",
+      "check_now": "Provjeri sada",
+      "submit_now": "Pošalji sada"
+    },
+    
+    "feature": {
+      "food": {
+        "subtitle": "Hrana",
+        "title": "Autentično iskustvo od farme do stola",
+        "des": "Uživajte u našem organskom doručku iz lokalnih crnogorskih farmi. Naši domaći sirevi, pršut, masline i još mnogo toga zadovoljiće sva vaša čula."
+      },
+      "pool": {
+        "subtitle": "Bazen",
+        "title": "Uronite u luksuz – naš bazen vas čeka",
+        "des": "Opustite se i uživajte u najboljem pogledu na more i zalazak sunca. Prepustite se čarima našeg izuzetnog bazena sa pogledom na more i očaravajuće zalaske. Bazen ispunjen bistrom morskom vodom pruža jedinstveno i osvježavajuće iskustvo plivanja."
+      },
+      "near": {
+        "subtitle": "Plaža blizu vile",
+        "title": "Plaža Drobni Pijesak",
+        "des_1": "Plaža Drobni Pijesak je pravi dragulj crnogorske obale. Smještena u skrovitoj uvali, očarava prirodnom ljepotom. Njena posebnost je položaj uz drevni maslinjak. Kako se približavate plaži, dočekaće vas prizor tirkiznog mora koje zapljuskuje mekani pijesak.",
+        "des_2": "Miran ambijent i netaknuta priroda stvaraju osjećaj spokojstva koji se rijetko pronalazi. Bilo da želite da se sunčate, plivate ili odmarate u hladu masline, ova plaža nudi sve. Ne propustite priliku da iskusite ovaj raj na crnogorskoj obali."
+      },
+      "wine": {
+        "subtitle": "Uskoro",
+        "title": "Vinski podrum",
+        "des": "Otkrijte mali, prijatan vinski podrum sa lokalnim crnogorskim vinima, ali i izborom italijanskih, francuskih i portugalskih vina."
+      },
+      "gym": {
+        "subtitle": "Uskoro",
+        "title": "Pokreni tijelo",
+        "des": "Potpuno opremljena teretana ispod bazena sa pogledom na more."
+      }
+    },
+  
+    "accommodation": {
+      "subtitle": "Smještaj",
+      "title": "Luksuz vas čeka",
+      "des": "Ako tražite luksuzno utočište koje se osjeća kao vaš drugi dom, ne tražite dalje. Ovo predivno mjesto nudi više od običnog smještaja – to je oaza za vašu dušu. Dok se opuštate, bićete počašćeni zalaskom sunca koji oboji nebo živim bojama. Mediteranska klima doprinosi ugodnom boravku, a očaravajući vrt i bazen upotpunjuju mirnu atmosferu. Bilo da tražite mir ili uživanje u luksuzu, ovo je idealna destinacija za vas."
+    },
+  
+    "testimonial": {
+      "owner": {
+        "name": "Milan i Dejana Joјović",
+        "position": "Vlasnici",
+        "des": "Uspješan bračni par iz Hamburga, Njemačka, već godinama gradi zajednički život zasnovan na ljubavi, povjerenju i profesionalnom uspjehu. On je cijenjeni kardiohirurg, poznat po svom znanju i posvećenosti pacijentima, dok je ona vlasnica prestižnog salona ljepote, omiljena zbog osjećaja za estetiku i vrhunske usluge. Njihova priča je primjer kako se rad, ambicija i skladan porodični život mogu savršeno spojiti."
+      },
+      "hostess": {
+        "name": "Marina",
+        "position": "Domaćica",
+        "des": "Treba saznati više o Marini, uključujući i prezime."
+      }
+    },
+  
+    "footerOne": {
+      "widget": {
+        "about": "O nama",
+        "contact": "Kontakt",
+        "galery": "Galerija"
+      }
+    },
+  
+    "about": {
+      "title": "O nama",
+      "montenegro": {
+        "subtitle": "Crna Gora",
+        "title": "Dobrodošli u Crnu Goru – dragulj Mediterana",
+        "des": "Mala, ali nevjerovatno raznolika, Crna Gora se prostire između veličanstvenih planina i kristalno čistog Jadranskog mora. Ova zemlja bogata kontrastima, kulturom i istorijom nudi sve što putnik može poželjeti – od divljih nacionalnih parkova, dubokih kanjona i jezera, do zlatnih plaža, skrivenih uvala i živopisnih gradova. U srcu ove ljepote, između Svetog Stefana i Petrovca, nalazi se idilična plaža Drobni Pijesak – prava oaza mira. Na samo nekoliko minuta, na brežuljku okruženom maslinama i čempresima, smještena je moderna kamena vila sa spektakularnim pogledom na more."
+      },
+      "architecture": {
+        "subtitle": "Arhitektura vile",
+        "title": "Vila Drobni Pijesak – Elegancija u skladu sa prirodom",
+        "des_1": "Mediteranska arhitektura sa modernim elegantnim dizajnom. Kamen, lavanda, citrusno i maslinovo drveće daju prostoru autentičan šarm i spokoj. Sa 360 m² raspoređenih na tri nivoa, vila nudi:",
+        "des_2": "5 spavaćih soba, svaka sa kupatilom, Prostrani dnevni boravak sa kaminom, Potpuno opremljena kuhinja i trpezarija, Vinski podrum i uskoro fitnes sala, Terase sa spektakularnim pogledom na Jadran, Bazen sa morskom vodom i natkrivena veranda sa roštiljem",
+        "des_3": "Enterijeri odišu toplinom i sofisticiranošću zahvaljujući kvalitetnim materijalima, prirodnim tonovima i svijetlim, prostranim sobama."
+      },
+      "nature": {
+        "subtitle": "Duh istraživanja",
+        "title": "Okolina – spoj prirode, istorije i avanture",
+        "des": "U blizini je selo Rijeka Reževići, okruženo bogatom mediteranskom vegetacijom i planinarskim stazama koje vode do zapanjujućih vidikovaca. Tu se nalazi manastir iz 13. vijeka, poznat po freskama i romansko-vizantijskoj arhitekturi. Za ljubitelje istorije i kulture, Stari grad Budva – jedno od najstarijih naselja na Jadranu – nudi bogato nasljeđe i lokalni šarm. Avanturisti će uživati u planinarenju, raftingu i skijanju, a gurmani u lokalnim vinima i specijalitetima."
+      },
+      "impression": {
+        "subtitle": "Utisak",
+        "title": "Čisto uživanje",
+        "des": "Vila Drobni Pijesak je više od mjesta za odmor – to je utočište, inspiracija i pozornica za nezaboravne trenutke. Kada sunce zaroni u more, a nebo obasjaju boje, znaćete da ste na pravom mjestu."
+      }
+    },
+  
+    "services": {
+      "clean": {
+        "title": "Čišćenje vile",
+        "des": "Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris"
+      },
+      "parking": {
+        "title": "Privatni parking",
+        "des": "Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris"
+      },
+      "wifi": {
+        "title": "Besplatan Wifi",
+        "des": "Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris"
+      },
+      "pool": {
+        "title": "Bazen",
+        "des": "Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris"
+      }
+    },
+  
+    "contact": {
+      "title": "Kontaktirajte nas",
+      "touch": {
+        "title": "Budite u kontaktu",
+        "des_1": "Slobodno nas kontaktirajte ako imate bilo kakvih pitanja u vezi smještaja – biće nam zadovoljstvo da vas ugostimo.",
+        "des_2": "Popunite vaše podatke i kontaktiraćemo vas. Naš tim za podršku odgovara najčešće u roku od jednog radnog dana. Možete nas i direktno pozvati."
+      },
+      "phone": "Pomoć u hitnim slučajevima",
+      "email": "Brzi e-mail",
+      "address": "Adresa kancelarije",
+      "form": {
+        "title": "Pošaljite poruku",
+        "name": "Puno ime",
+        "email": "Email adresa",
+        "phone": "Telefon",
+        "subject": "Naslov",
+        "message": "Unesite vašu poruku..."
+      }
+    },
+  
+    "video_area": {
+      "title": "Rezervišite vilu, iskoristite ponudu i kupite karte online."
+    }
+  }
+  

@@ -1,9 +1,20 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ModalVideo from "react-modal-video";
+import { useTranslation } from 'react-i18next';
 
 export default function Videoarea() {
   const [isOpen, setOpen] = useState(false);
+  const [ready, setReady] = useState(false);
+  const { t, i18n } = useTranslation();
+  
+  useEffect(() => {
+    if (i18n.isInitialized) setReady(true);
+    else i18n.on('initialized', () => setReady(true));
+  }, [i18n]);
+
+  if (!ready) return null;
+
   return (
     <div className="video__area" style={{ backgroundImage: `url('/img/villa/villa-drobnipijesak-inside.webp')` }}>
       <div className="container">
@@ -11,7 +22,7 @@ export default function Videoarea() {
           {/* Title */}
           <div className="col-xxl-6 col-xl-7 col-lg-8">
             <div className="video__area-title">
-              <h2>Book hotel rooms, get deals & book flights online.</h2>
+              <h2>{t('video_area.title')}</h2>
             </div>
           </div>
           <div className="col-xxl-6 col-xl-5 col-lg-4">

@@ -1,13 +1,25 @@
 "use client"
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
-
-const testimonialData = [
-    { image: "/img/avatar/testimonial-1.jpg", name: 'Milan and Dejana Jojovic', position: 'Owners', des: 'A successful married couple from Hamburg, Germany, has been building a life together for years, based on love, trust, and professional achievement. He is a renowned cardiac surgeon, known for his expertise and dedication to his patients, while she is the owner of a prestigious beauty salon, highly regarded by her clients for her sense of aesthetics and top-quality service. Their story is a true example of how hard work, ambition, and a harmonious family life can blend together perfectly.' },
-    { image: "/img/avatar/testimonial-2.jpg", name: 'Marina', position: 'Hostess', des: 'Treba nesto saznati o Marini, izmedju ostalog i prezime' },
-]
+import { useTranslation } from "react-i18next";
+import { useState, useEffect } from "react";
 
 const Testimonial = () => {
+  const [ready, setReady] = useState(false);
+  const { t, i18n} = useTranslation();
+
+  const testimonialData = [
+      { image: "/img/avatar/testimonial-1.jpg", name: t('testimonial.owner.name'), position: t('testimonial.owner.position'), des: t('testimonial.owner.des') },
+      { image: "/img/avatar/testimonial-2.jpg", name: t('testimonial.hostess.name'), position: t('testimonial.hostess.position'), des: t('testimonial.hostess.des') },
+  ];
+
+  useEffect(() => {
+    if (i18n.isInitialized) setReady(true);
+    else i18n.on('initialized', () => setReady(true));
+  }, [i18n]);
+
+  if (!ready) return null;
+
   return (
     <>
       <div className="testimonial__area section-padding pb-0">

@@ -1,10 +1,23 @@
 "use client";
 import Image from "next/image";
 import CarParking from "../../public/img/icon/car-parking.png";
-import Locaion1 from "../../public/img/icon/location-1.png";
+import Cleaning from "../../public/img/icon/cleaning.png";
 import SwimmingPool from "../../public/img/icon/swimming-pool.png";
+import Wifi from "../../public/img/icon/wifi.png";
+import { useEffect, useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 const Servicestwo = () => {
+  const [ready, setReady] = useState(false);
+  const { t, i18n } = useTranslation();
+  
+  useEffect(() => {
+    if (i18n.isInitialized) setReady(true);
+    else i18n.on('initialized', () => setReady(true));
+  }, [i18n]);
+
+  if (!ready) return null;
+
   return (
     <>
       <div className="services__two">
@@ -14,14 +27,11 @@ const Servicestwo = () => {
               <div className="services__two-item">
                 <span>01</span>
                 <div className="services__two-item-icon">
-                  <Image alt="" layout="responsive" src={Locaion1} />
+                  <Image alt="" layout="responsive" src={Cleaning} />
                 </div>
                 <div className="services__two-item-content">
-                  <h4>Room Cleaning</h4>
-                  <p>
-                    Proin massa augue, lacinia at blandit ac, Fringilla
-                    scelerisque tortor. Mauris
-                  </p>
+                  <h4>{t('services.clean.title')}</h4>
+                  <p>{t('services.clean.des')}</p>
                 </div>
               </div>
             </div>
@@ -32,11 +42,8 @@ const Servicestwo = () => {
                   <Image alt="" layout="responsive" src={CarParking} />
                 </div>
                 <div className="services__two-item-content">
-                  <h4>Car Parking</h4>
-                  <p>
-                    Proin massa augue, lacinia at blandit ac, Fringilla
-                    scelerisque tortor. Mauris
-                  </p>
+                  <h4>{t('services.parking.title')}</h4>
+                  <p>{t('services.parking.des')}</p>
                 </div>
               </div>
             </div>
@@ -47,11 +54,8 @@ const Servicestwo = () => {
                   <Image alt="" layout="responsive" src={SwimmingPool} />
                 </div>
                 <div className="services__two-item-content">
-                  <h4>Swimming pool</h4>
-                  <p>
-                    Proin massa augue, lacinia at blandit ac, Fringilla
-                    scelerisque tortor. Mauris
-                  </p>
+                  <h4>{t('services.pool.title')}</h4>
+                  <p>{t('services.pool.des')}</p>
                 </div>
               </div>
             </div>
@@ -59,14 +63,11 @@ const Servicestwo = () => {
               <div className="services__two-item">
                 <span>04</span>
                 <div className="services__two-item-icon">
-                  <Image alt="" layout="responsive" src={Locaion1} />
+                  <Image alt="" layout="responsive" src={Wifi} />
                 </div>
                 <div className="services__two-item-content">
-                  <h4>PickUp & Drop</h4>
-                  <p>
-                    Proin massa augue, lacinia at blandit ac, Fringilla
-                    scelerisque tortor. Mauris
-                  </p>
+                  <h4>{t('services.wifi.title')}</h4>
+                  <p>{t('services.wifi.des')}</p>
                 </div>
               </div>
             </div>

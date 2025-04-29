@@ -1,6 +1,20 @@
+"use client";
 import Social from "../socials/page";
+import ContactForm from "./ContactForm";
+import { useEffect, useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 const Contactcontainer = () => {
+  const [ready, setReady] = useState(false);
+  const { t, i18n } = useTranslation();
+  
+  useEffect(() => {
+    if (i18n.isInitialized) setReady(true);
+    else i18n.on('initialized', () => setReady(true));
+  }, [i18n]);
+
+  if (!ready) return null;
+
   return (
     <>
       <div className="contact__area section-padding pb-0">
@@ -8,16 +22,9 @@ const Contactcontainer = () => {
           <div className="row">
             <div className="col-xl-5 col-lg-5 lg-mb-30">
               <div className="contact__area-title">
-                <h3 className="mb-25">Get In Touch</h3>
-                <p>
-                  Feel free to contact us directly if you have any enquires regarding 
-                  accomodation, we would love to have you stay with us.
-                </p>
-                <p>
-                  Simply fill in all your personal data and let us get in touch with you. 
-                  Normally, our support team answers within one business day to you, 
-                  so that you don’t have to wait. Or call us directly from the phone.
-                </p>
+                <h3 className="mb-25">{t('contact.touch.title')}</h3>
+                <p>{t('contact.touch.des_1')}</p>
+                <p>{t('contact.touch.des_2')}</p>
               </div>
               <div className="contact__area-info">
                 <div className="contact__area-info-item">
@@ -25,7 +32,7 @@ const Contactcontainer = () => {
                     <i className="fal fa-phone-alt"></i>
                   </div>
                   <div className="contact__area-info-item-content">
-                    <span>Emergency Help</span>
+                    <span>{t('contact.phone')}</span>
                     <h6>
                       <a href="tel:+38269216035">+382 69 216 035</a>
                     </h6>
@@ -36,7 +43,7 @@ const Contactcontainer = () => {
                     <i className="fal fa-envelope"></i>
                   </div>
                   <div className="contact__area-info-item-content">
-                    <span>Quick Email</span>
+                    <span>{t('contact.email')}</span>
                     <h6>
                       <a href="mailto:info@villadrobnipijesak.me">info@villadrobnipijesak.me</a>
                     </h6>
@@ -47,7 +54,7 @@ const Contactcontainer = () => {
                     <i className="fal fa-map-marker-alt"></i>
                   </div>
                   <div className="contact__area-info-item-content">
-                    <span>Office Address</span>
+                    <span>{t('contact.address')}</span>
                     <h6>
                       <a href="https://maps.app.goo.gl/iH5N6Heggig8jv1v5">Drobni Pijesak, Montenegro </a>
                     </h6>
@@ -60,71 +67,8 @@ const Contactcontainer = () => {
             </div>
             <div className="col-xl-7 col-lg-7">
               <div className="contact__area-form">
-                <h3 className="mb-35">Send Massage</h3>
-                <form action="#">
-                  <div className="row">
-                    <div className="col-sm-6 mb-30">
-                      <div className="contact__area-form-item">
-                        <i className="fal fa-user"></i>
-                        <input
-                          type="text"
-                          name="name"
-                          placeholder="Full Name"
-                          required="required"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-sm-6 sm-mb-30">
-                      <div className="contact__area-form-item">
-                        <i className="far fa-envelope-open"></i>
-                        <input
-                          type="email"
-                          name="email"
-                          placeholder="Email Address"
-                          required="required"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-sm-6 mb-30">
-                      <div className="contact__area-form-item">
-                        <i className="far fa-phone-alt"></i>
-                        <input
-                          type="text"
-                          name="phone"
-                          placeholder="Phone"
-                          required="required"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-sm-6 sm-mb-30">
-                      <div className="contact__area-form-item">
-                        <i className="far fa-address-book"></i>
-                        <input
-                          type="text"
-                          name="subject"
-                          placeholder="Subject"
-                          required="required"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-sm-12 mb-30">
-                      <div className="contact__area-form-item">
-                        <i className="far fa-comments"></i>
-                        <textarea
-                          name="message"
-                          placeholder="Type your comments...."
-                        ></textarea>
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="contact__area-form-item">
-                        <button className="theme-btn" type="submit">
-                          Submit Now<i className="fal fa-long-arrow-right"></i>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
+                <h3 className="mb-35">{t('contact.form.title')}</h3>
+                <ContactForm />
               </div>
             </div>
           </div>

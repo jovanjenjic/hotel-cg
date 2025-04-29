@@ -1,0 +1,141 @@
+{
+    "header": {
+      "home": "Startseite",
+      "about": "Über uns",
+      "galery": "Galerie",
+      "contact": "Kontakt"
+    },
+  
+    "button": {
+      "read_more": "Mehr erfahren",
+      "book_now": "Jetzt buchen",
+      "check_now": "Jetzt prüfen",
+      "submit_now": "Jetzt absenden"
+    },
+  
+    "feature": {
+      "food": {
+        "subtitle": "Essen",
+        "title": "Unverwechselbares Farm-to-Table-Erlebnis",
+        "des": "Genießen Sie unser Bio-Frühstück mit Produkten aus lokalen Bauernhöfen in Montenegro. Unsere hausgemachten Käsesorten, Prosciutto, Oliven und mehr werden Ihren Gaumen verwöhnen."
+      },
+      "pool": {
+        "subtitle": "Pool",
+        "title": "Tauchen Sie ein in den Luxus, unser Pool erwartet Sie",
+        "des": "Entspannen Sie sich und genießen Sie den besten Blick auf das Meer und den Sonnenuntergang. Erleben Sie die Wunder unseres außergewöhnlichen Pools mit kristallklarem Meerwasser und atemberaubender Aussicht."
+      },
+      "near": {
+        "subtitle": "Strand in der Nähe der Villa",
+        "title": "Strand Drobni Pijesak",
+        "des_1": "Der Strand Drobni Pijesak ist ein wahres Juwel an der montenegrinischen Küste. In einer abgeschiedenen Bucht gelegen, bietet dieser Strand eine atemberaubende natürliche Schönheit. Besonders reizvoll ist seine Lage hinter einem alten Olivenhain. Wenn Sie sich dem Strand nähern, erwartet Sie ein faszinierender Anblick von kristallklarem türkisfarbenem Wasser, das sanft an den feinen Sand schwappt.",
+        "des_2": "Die ruhige Atmosphäre und die unberührte Umgebung schaffen ein Gefühl von Frieden, das man anderswo kaum findet. Ob Sonnenbaden, erfrischendes Schwimmen oder Entspannen im Schatten eines Olivenbaums – der Strand Drobni Pijesak bietet all das. Verpassen Sie nicht diese paradiesische Ecke Montenegros."
+      },
+      "wine": {
+        "subtitle": "Demnächst verfügbar",
+        "title": "Weinkeller",
+        "des": "Entdecken Sie einen kleinen, gemütlichen Weinkeller mit lokalen montenegrinischen Weinen sowie einer Auswahl italienischer, französischer und portugiesischer Weine."
+      },
+      "gym": {
+        "subtitle": "Demnächst verfügbar",
+        "title": "Bewegen Sie Ihren Körper",
+        "des": "Voll ausgestattetes Fitnessstudio unter dem Pool mit Meerblick."
+      }
+    },
+  
+    "accommodation": {
+      "subtitle": "Unterkunft",
+      "title": "Luxus erwartet Sie",
+      "des": "Wenn Sie nach einem luxuriösen Rückzugsort suchen, der sich wie ein Zuhause fernab von zu Hause anfühlt, sind Sie hier genau richtig. Dieses exquisite Refugium bietet mehr als nur eine Unterkunft – es ist ein Heiligtum für die Seele. Lassen Sie sich von atemberaubenden Sonnenuntergängen verzaubern, die den Himmel in lebendige Farben tauchen. Das mediterrane Klima sorgt für angenehmes Wetter während Ihres gesamten Aufenthalts. Der schöne Garten rund um die Villa schafft eine friedliche Atmosphäre, während der herrliche Pool zu einer erfrischenden Abkühlung einlädt. Ob Sie Ruhe suchen oder im Luxus schwelgen möchten – dies ist das perfekte Ziel für Sie."
+    },
+  
+    "testimonial": {
+      "owner": {
+        "name": "Milan und Dejana Jojovic",
+        "position": "Eigentümer",
+        "des": "Ein erfolgreiches Ehepaar aus Hamburg, Deutschland, baut seit Jahren ein gemeinsames Leben auf – basierend auf Liebe, Vertrauen und beruflichem Erfolg. Er ist ein renommierter Herzchirurg, bekannt für sein Fachwissen und seine Hingabe an die Patienten, während sie Besitzerin eines renommierten Schönheitssalons ist, geschätzt für ihr ästhetisches Gespür und erstklassigen Service. Ihre Geschichte ist ein wahres Beispiel dafür, wie harte Arbeit, Ehrgeiz und ein harmonisches Familienleben perfekt vereint werden können."
+      },
+      "hostess": {
+        "name": "Marina",
+        "position": "Gastgeberin",
+        "des": "Informationen über Marina sind noch zu ergänzen, inklusive Nachname."
+      }
+    },
+  
+    "footerOne": {
+      "widget": {
+        "about": "Über uns",
+        "contact": "Kontakt",
+        "galery": "Galerie"
+      }
+    },
+  
+    "about": {
+      "title": "Über uns",
+      "montenegro": {
+        "subtitle": "Montenegro",
+        "title": "Willkommen in Montenegro – dem Juwel des Mittelmeers",
+        "des": "Klein, aber unglaublich vielfältig – Montenegro erstreckt sich zwischen majestätischen Bergen und dem kristallklaren Adriatischen Meer. Dieses Land, reich an natürlichen Kontrasten, Kultur und Geschichte, bietet alles, was sich ein Reisender wünscht – von wilden Nationalparks, tiefen Schluchten und ruhigen Seen bis hin zu goldenen Stränden, versteckten Buchten und lebhaften Küstenstädten. Im Herzen dieser Schönheit, zwischen den beliebten Ferienorten Sveti Stefan und Petrovac, liegt der idyllische Strand Drobni Pijesak – eine wahre Oase der Ruhe und Natur. Nur wenige Minuten entfernt, auf einem Hügel umgeben von Olivenbäumen und Zypressen, steht die Villa Drobni Pijesak – eine moderne Steinvilla mit spektakulärem Meerblick."
+      },
+      "architecture": {
+        "subtitle": "Architektur der Villa",
+        "title": "Villa Drobni Pijesak – Eleganz in Harmonie mit der Natur",
+        "des_1": "Mediterrane Architektur mit modernem, elegantem Design. Stein, Lavendel, Zitrus- und Olivenbäume verleihen dem gesamten Raum authentischen Charme und Ruhe. Mit 360 m² Wohnfläche über drei Ebenen bietet die Villa:",
+        "des_2": "5 Schlafzimmer, jedes mit eigenem Bad, Großzügiges Wohnzimmer mit Kamin, Voll ausgestattete Küche und Essbereich, Weinkeller und bald Fitnessraum, Terrassen mit atemberaubendem Blick auf die Adria, Salzwasserpool und überdachte Veranda mit Grill",
+        "des_3": "Die Innenräume strahlen Wärme und Raffinesse aus – dank hochwertiger Materialien, natürlichen Tönen und großzügiger, heller Räume."
+      },
+      "nature": {
+        "subtitle": "Entdeckergeist",
+        "title": "Umgebung – Natur, Geschichte & Abenteuer vereint",
+        "des": "In der Nähe befindet sich das Dorf Rijeka Reževići, umgeben von üppiger mediterraner Vegetation und zahlreichen Wanderwegen zu atemberaubenden Aussichtspunkten. Das Dorf beherbergt ein Kloster aus dem 13. Jahrhundert, bekannt für seine Fresken und romanisch-byzantinische Architektur. Für Kultur- und Geschichtsliebhaber ist die Altstadt von Budva – eine der ältesten Siedlungen an der Adriaküste – ein Muss, mit reichem Erbe, engen Gassen und lokaler Atmosphäre. Abenteuerlustige können wandern, raften, Ski fahren und mehr, während Feinschmecker kulinarische Spezialitäten und lokale Weine genießen."
+      },
+      "impression": {
+        "subtitle": "Eindruck",
+        "title": "Reiner Genuss",
+        "des": "Villa Drobni Pijesak ist mehr als nur ein Ort zum Übernachten – sie ist ein Rückzugsort, eine Inspiration und eine Bühne für unvergessliche Momente. Wenn die Sonne ins Meer taucht und den Himmel in leuchtende Farben taucht, wissen Sie, dass Sie am richtigen Ort angekommen sind."
+      }
+    },
+  
+    "services": {
+      "clean": {
+        "title": "Villa Reinigung",
+        "des": "Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris"
+      },
+      "parking": {
+        "title": "Privatparkplatz",
+        "des": "Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris"
+      },
+      "wifi": {
+        "title": "Kostenloses WLAN",
+        "des": "Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris"
+      },
+      "pool": {
+        "title": "Schwimmbad",
+        "des": "Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris"
+      }
+    },
+  
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "touch": {
+        "title": "Kontakt aufnehmen",
+        "des_1": "Zögern Sie nicht, uns direkt zu kontaktieren, wenn Sie Fragen zur Unterkunft haben – wir würden uns freuen, Sie bei uns begrüßen zu dürfen.",
+        "des_2": "Füllen Sie einfach alle Ihre persönlichen Daten aus und lassen Sie uns den Kontakt zu Ihnen aufnehmen. Normalerweise antwortet unser Support-Team innerhalb eines Werktages, sodass Sie nicht lange warten müssen. Oder rufen Sie uns direkt an."
+      },
+      "phone": "Notfallhilfe",
+      "email": "Schnelle E-Mail",
+      "address": "Büroadresse",
+      "form": {
+        "title": "Nachricht senden",
+        "name": "Vollständiger Name",
+        "email": "E-Mail-Adresse",
+        "phone": "Telefon",
+        "subject": "Betreff",
+        "message": "Geben Sie hier Ihre Nachricht ein..."
+      }
+    },
+  
+    "video_area": {
+      "title": "Villa buchen, Angebot erhalten & Flüge online buchen."
+    }
+  }
+  

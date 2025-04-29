@@ -1,6 +1,6 @@
+"use client"
 // Import necessary components and icons
 import footerOne from "@/components/data/footerOne";
-import Image from "next/image";
 import Link from "next/link";
 import Social from "../socials/page";
 
@@ -39,14 +39,13 @@ export default function Footer() {
                       layout="responsive"
                       src="/logo.png"
                       alt="logo"
-                      width={55}
+                      width={60}
                     />
                   </Link>
                 </div>
                 {/* Company description */}
                 <p>
-                  Phasellus nisi sapien, rutrum placerat sapien eu, rhoncus
-                  tempus
+                  Luxury Villa Drobni Pijesak
                 </p>
                 <div className="footer__area-widget-about-social">
                   <Social />
